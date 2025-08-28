@@ -47,4 +47,6 @@ US_input_file: <>
 US_output_file: <>
 apify_scraper_path1: <>
 apify_scraper_path2: <>
+
+labeled_input_folder: <>
 ```
