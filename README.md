@@ -30,7 +30,7 @@ We aim to design and implement an **ML-based system** that can:
 ## 📂 Data Sources  
 
   *   **Kaggle Dataset:** Loads the ["Google Maps Restaurant Reviews"](https://www.kaggle.com/datasets/denizbilginn/google-maps-restaurant-reviews) dataset.
-  *   **Apify Dataset:** Loads the reviews for 500 Singapore places scraped in `01_web_crawling.ipynb` and downloaded from the Apify platform.
+  *   **Apify Dataset:** Downloaded Singapore reviews from a variety of business categories (e.g. retail, tourism, food, fitness) from the Apify platform.
   *   **GoogleLocal Dataset:** Loads a sample of the [McAuley Lab GoogleLocal](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/) data (10 states, 1000 reviews per state).
   *   **Yelp Open Dataset:** Loads a sample of 10,000 reviews from the [Yelp Open Dataset](https://business.yelp.com/data/resources/open-dataset/).
 
