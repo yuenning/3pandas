@@ -54,17 +54,17 @@ We compared both **classical ML models** and **transformer-based models**:
 |--------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | **Random Forest**        | Baseline ML model using TF-IDF + handcrafted features.                          | Strong baseline, interpretable feature importance.                            |
 | **MLP Classifier**       | Multi-layer perceptron on embeddings.                                           | Captures nonlinearities, moderately performant.                               |
-| **Gemma-2 2B (finetuned)** | Transformer-based model trained on review labels.                               | Strong semantic understanding, but requires GPU resources.                     |
+| **Gemma-3 1B (finetuned)** | Transformer-based model trained on review labels.                               | Strong semantic understanding, but requires GPU resources.                     |
 | **Qwen 0.5B – 0.8B (finetuned)** | Lightweight transformer models tested for efficiency-performance tradeoff. | Achieves better balance between accuracy and compute cost than larger LLMs.   |
 
 ---
 
 ## 📊 Results (Summary)  
 
-- **Random Forest:** Achieved ~0.68 F1-macro. Good interpretability but limited semantic capture.  
-- **MLP:** Slight improvements (~0.70 F1-macro) but struggles with imbalance.  
-- **Gemma 2B:** Stronger performance (~0.75 F1-macro) with embeddings, but high GPU demand.  
-- **Qwen 0.5B–0.8B:** Balanced efficiency vs. accuracy (~0.73 F1-macro). Lightweight enough for real-world deployment.  
+- **Random Forest:** Achieved ~0.58 F1-macro. Good interpretability but limited semantic capture.  
+- **MLP:** Slight improvements (~0.55 F1-macro) but struggles with imbalance.  
+- **Gemma 2B:** Stronger performance (~0.46 F1-macro) with embeddings, but high GPU demand.  
+- **Qwen 0.5B–0.8B:** Balanced efficiency vs. accuracy (~0.33 F1-macro). Lightweight enough for real-world deployment.  
 
 ---
 
